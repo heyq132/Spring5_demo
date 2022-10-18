@@ -12,7 +12,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Tset {
 
-    //测试GitHub
+    //测试GitHub push
+    //测试GitHub pull
 
     @Test
     public void testAdd(){
