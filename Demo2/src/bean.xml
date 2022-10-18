@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--1集合类型属性注入    -->
+    <bean id="stu" class="com.heyq.spring.collectiontype.Stu">
+        <!--数组类型属性注入        -->
+        <property name="courses">
+            <array>
+                <value>语文</value>
+                <value>数学</value>
+                <value>英语</value>
+            </array>
+        </property>
+        <!--list类型属性注入        -->
+        <property name="lists">
+            <list>
+                <value>小何</value>
+                <value>老五</value>
+            </list>
+        </property>
+        <!--map类型属性注入        -->
+        <property name="maps">
+            <map>
+                <entry key="JAVA" value="java"></entry>
+                <entry key="html" value="HTML"></entry>
+            </map>
+        </property>
+        <!--set类型属性注入        -->
+        <property name="sets">
+            <set>
+                <value>Java EE</value>
+                <value>MySQL</value>
+            </set>
+        </property>
+    </bean>
+
+</beans>
