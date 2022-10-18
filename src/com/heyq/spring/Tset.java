@@ -12,6 +12,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Tset {
 
+    //测试GitHub
+
     @Test
     public void testAdd(){
         //1加载Spring配置文件
